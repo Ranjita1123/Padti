@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #333;
+}
+h2{
+    font-size: 3rem;
+    text-align: center;
+    color: aliceblue;
+    background: linear-gradient( red, green);
+}
+
+.btn1{
+    background-color: green;
+}
+
+.btn2{
+    background-color: red
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+}
+
+button:hover {
+    opacity: 0.8;
+}
